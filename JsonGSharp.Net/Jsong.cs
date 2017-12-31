@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -38,7 +38,7 @@ namespace JsonGSharp.Net
             {
                 for (var x = 0; x < img.Width; x++)
                 {
-                    var pixel = img.GetPixel(y, x);
+                    var pixel = img.GetPixel(x, y);
                     pixels.Add(new JsongPixel()
                     {
                         Color = new JsongColor()
