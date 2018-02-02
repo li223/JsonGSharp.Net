@@ -1,3 +1,5 @@
+# This thing is so broken and just a massive mistake like me. :^)
+
 # JsonGSharp.Net
 Don't ask, Don't tell.
 
